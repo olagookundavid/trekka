@@ -11,6 +11,12 @@
 		BECEE91029B7438C0036C10F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECEE90F29B7438C0036C10F /* ContentView.swift */; };
 		BECEE91229B7438E0036C10F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BECEE91129B7438E0036C10F /* Assets.xcassets */; };
 		BECEE91529B7438E0036C10F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BECEE91429B7438E0036C10F /* Preview Assets.xcassets */; };
+		BECEE91D29B749490036C10F /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = BECEE91B29B749480036C10F /* tips.json */; };
+		BECEE91E29B749490036C10F /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = BECEE91C29B749490036C10F /* locations.json */; };
+		BECEE92029B77B320036C10F /* location.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECEE91F29B77B320036C10F /* location.swift */; };
+		BECEE92229B7A7150036C10F /* world_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECEE92129B7A7150036C10F /* world_view.swift */; };
+		BECEE92429B7C5470036C10F /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECEE92329B7C5470036C10F /* Tips.swift */; };
+		BECEE92629B7C6670036C10F /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECEE92529B7C6670036C10F /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		BECEE90F29B7438C0036C10F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BECEE91129B7438E0036C10F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BECEE91429B7438E0036C10F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BECEE91B29B749480036C10F /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		BECEE91C29B749490036C10F /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		BECEE91F29B77B320036C10F /* location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = location.swift; sourceTree = "<group>"; };
+		BECEE92129B7A7150036C10F /* world_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = world_view.swift; sourceTree = "<group>"; };
+		BECEE92329B7C5470036C10F /* Tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
+		BECEE92529B7C6670036C10F /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +65,13 @@
 			children = (
 				BECEE90D29B7438C0036C10F /* trekkerApp.swift */,
 				BECEE90F29B7438C0036C10F /* ContentView.swift */,
+				BECEE92129B7A7150036C10F /* world_view.swift */,
+				BECEE91F29B77B320036C10F /* location.swift */,
 				BECEE91129B7438E0036C10F /* Assets.xcassets */,
+				BECEE91C29B749490036C10F /* locations.json */,
+				BECEE91B29B749480036C10F /* tips.json */,
+				BECEE92329B7C5470036C10F /* Tips.swift */,
+				BECEE92529B7C6670036C10F /* TipsView.swift */,
 				BECEE91329B7438E0036C10F /* Preview Content */,
 			);
 			path = trekker;
@@ -127,6 +145,8 @@
 			files = (
 				BECEE91529B7438E0036C10F /* Preview Assets.xcassets in Resources */,
 				BECEE91229B7438E0036C10F /* Assets.xcassets in Resources */,
+				BECEE91E29B749490036C10F /* locations.json in Resources */,
+				BECEE91D29B749490036C10F /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BECEE92629B7C6670036C10F /* TipsView.swift in Sources */,
+				BECEE92029B77B320036C10F /* location.swift in Sources */,
+				BECEE92429B7C5470036C10F /* Tips.swift in Sources */,
+				BECEE92229B7A7150036C10F /* world_view.swift in Sources */,
 				BECEE91029B7438C0036C10F /* ContentView.swift in Sources */,
 				BECEE90E29B7438C0036C10F /* trekkerApp.swift in Sources */,
 			);
